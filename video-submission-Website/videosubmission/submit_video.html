@@ -1,0 +1,6 @@
+<! -- videosubmission/templates/videosubmission/submit_video.html -->
+<form method="post" enctype="mutlipart/form-data">
+    {%csrf_token %}
+    {{form.as_p }}
+    <button type="submit">Submit Video</button>
+</form>
