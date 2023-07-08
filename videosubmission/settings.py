@@ -129,3 +129,16 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 Media_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+DJANGO_SETTINGS_MODULE
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'Clips To Binge On',
+        'USER': 'punisher1227',
+        'PASSWORD': '40caliber1227',    # 0r Instead of Hardcoding passwords USE  "os.environ.get()"
+        'HOST': 'localhost',
+        'PORT': '8000'
+        }
+    }
+
