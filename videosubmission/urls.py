@@ -30,3 +30,12 @@ urlpatterns = [
     path('submit/', views.submit_video, name='submit_video'),
     path('success/', views.success_page, name='success'), #add this line for the success page
     ]
+
+from django.urls import path 
+from .views import submit_video
+
+urlpatterns = [
+    path('submit/, submit_video, name='submit_video'),
+         # Other URL patterns
+
+]
