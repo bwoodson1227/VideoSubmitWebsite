@@ -19,3 +19,6 @@ from django.shortcuts import render
 
 def success_page(requests):
      return render(requests, 'videosubmission/succes.html')
+
+#### context = {'form': form}
+        #### return render(request, 'videosubmission/submit_video.html', context)
