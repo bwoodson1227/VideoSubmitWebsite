@@ -6,7 +6,7 @@ class VideoSubmissionForm(forms.ModelForm):
     model = VideoSubmission 
     Fields = ['title', 'description', 'video_file']
 
-from .forms import VideoSubmissionForm
+from .forms import VideoSubmissionForm   ###from .forms import VideoSubmissionForm
 
 def submit_video(request):
   if request.method == 'POST':
