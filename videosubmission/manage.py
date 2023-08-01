@@ -18,7 +18,7 @@ INSTALLED_APPS = [
     'videosubmission',  # Add your app name here
 ]
 
-# ...
+# INSTALLED_APPS = [
 
 DATABASES = {
     'default': {
